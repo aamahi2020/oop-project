@@ -1,0 +1,46 @@
+# Ignore composer dependencies
+/vendor/
+
+# Ignore environment configuration
+.env
+
+# Ignore log files and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore IDE/editor folders
+/.idea/
+/.vscode/
+/nbproject/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore cache or session data
+cache/
+tmp/
+storage/logs/
+storage/framework/sessions/
+
+# Ignore PHPUnit test results
+phpunit.xml
+phpunit.result.cache
+
+# Ignore build or compiled files
+/build/
+/node_modules/
+/dist/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore uploads (optional)
+public/uploads/
+
+# Ignore Laravel-specific stuff (if it's a Laravel project)
+bootstrap/cache/
+.env.backup
+.env.testing
+.env.production
